@@ -1,0 +1,130 @@
+/* CarnfieldPRESS Admin CSS */
+/* Completely change the wordpress admin area */
+body {
+	height: auto;
+	background:#f1f1f1 url(img/cwd.png) top right fixed no-repeat;
+	border-bottom: 1px solid #aaa;
+}
+/* CSS For the Options Page */
+.cwd_wrap{
+	width: 740px;
+	padding: 0 20px 10px 20px;
+}
+
+@media (max-width: 768px) {
+.cwd_wrap{width: 100%;}
+}
+
+.cwd_section{
+	border:1px solid #a8aaab;
+	background:#f9f9f9;
+}
+
+.cwd_opts label{
+	color: #333;
+	font-size:14px;
+	font-weight:700;
+	width:200px;
+	display:block;
+	float:left;	
+}
+.cwd_input {
+	padding:30px 10px;
+	border-bottom:1px solid #ddd;
+	border-top:1px solid #fff;
+}
+.cwd_opts small{
+	display:block;
+	float:right;
+	width:200px;
+	color:#555;
+}
+.cwd_opts input[type="text"], .cwd_opts select{
+	width:280px;
+	font-size:14px;
+	padding:4px;
+	color:#333;
+	line-height:1em;
+	background:#f3f3f3;
+}
+.cwd_input input:focus, .cwd_input textarea:focus{
+	background:#fff;
+}
+.cwd_input textarea{
+	width:280px;
+	height:175px;
+	font-size:14px;
+	padding:4px;
+	color:#333;
+	line-height:1.5em;
+	background:#f3f3f3;
+}
+.cwd_title h3 {
+	cursor:pointer;
+	font-size:1em;
+	text-transform: uppercase;
+	margin:0;
+	font-weight:bold;
+	color:#232323;
+	float:left;
+	width:80%;
+	padding:14px 4px;
+}
+
+.cwd_title{
+	cursor:pointer;
+	border-bottom:1px solid #a8aaab;
+	background:#eee;
+	padding:0;
+	margin-bottom: 2px;
+	}
+
+.cwd_title h3 img.inactive{
+	margin:-8px 10px 0 2px;
+	width:32px;
+	height:32px;	
+	background:url('img/pointer.png') no-repeat 0 0;
+	float:left;
+}
+
+.cwd_title h3 img.active{
+	margin:-8px 10px 0 2px;
+	width:32px;
+	height:32px;	
+	background:url('img/pointer.png') no-repeat  0 -64px;
+	float:left;
+}
+.cwd_title h3 img:hover {
+	margin:-8px 10px 0 2px;
+	width:32px;
+	height:32px;	
+	background:url('img/pointer.png') no-repeat  0 -32px;
+	float:left;
+}
+
+.cwd_title span.submit{
+	display:block;
+	float:right;
+	margin:0;
+	padding:0;
+	width:15%;
+	padding:14px 0;
+}
+
+.clearfix{
+	clear:both;
+}
+
+.cwd_table th, .cwd_table td{
+	border:1px solid #bbb;
+	padding:10px;
+	text-align:center;
+}
+
+.cwd_table th, .cwd_table td.feature{
+	border-color:#888;
+	}
+	
+#post-body {background: transparent !important;}
+
+#collapse-menu {display: none;}
