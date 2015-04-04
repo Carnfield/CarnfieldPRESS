@@ -41,7 +41,7 @@
 	<script type="text/javascript">
 	function downloadJSAtOnload() {
 	var element = document.createElement("script");
-	element.src = "js/libs/gumby.min.js";
+	element.src = "<?php bloginfo('stylesheet_directory'); ?>/js/libs/gumby.min.js";
 	document.body.appendChild(element);
 	}
 	if (window.addEventListener)
